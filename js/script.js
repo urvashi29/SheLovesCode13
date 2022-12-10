@@ -66,3 +66,18 @@ console.log(window.location);
 console.log(window.history);
 
 console.log(window.location.href);
+
+// Hoisting
+z = 10;//initialize
+console.log(z);//use
+var z;//declare
+
+
+//initialization is never hoisted
+var j;
+console.log(j);//undefined
+j = 100;
+
+
+//ideal
+var y = 90;
